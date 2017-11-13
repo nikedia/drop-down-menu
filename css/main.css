@@ -1,0 +1,49 @@
+/* <!-- reset --> */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* <!-- nav menu html --> */
+header {
+    height: 50px;
+    background-color: #ce852a;
+    color: #fff;
+}
+
+.menu ul {
+    background-color: #ce852a;
+    list-style: none;
+}
+
+.menu li {
+    border: 30px;
+    padding: 15px 10px;
+    display: inline-block;
+}
+
+.menu li:hover {
+    background-color: rgba(0, 0, 0, 3);
+    cursor: pointer;
+}
+
+        /* <!-- sub-menu html--> */
+.menu ul ul {
+    top: 50px;
+    position: absolute;
+}
+
+.menu .itemList li {
+    display: block;
+}
+
+/* <!-- nav menu js --> */
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
